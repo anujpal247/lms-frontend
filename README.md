@@ -51,3 +51,9 @@
 ```
   @import "tailwindcss";
 ```
+
+### Add plugins and dependencies
+
+```
+  npm i @reduxjs/toolkit @tailwindcss/line-clamp axios chart.js daisyui react-chartjs-2 react-hot-toast react-icons react-redux react-router-dom tailwindcss
+```
