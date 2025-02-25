@@ -25,3 +25,29 @@
 ```
   npm run dev
 ```
+
+### Setup instrunctions for Tailwind
+
+[tailwind official docs](https://tailwindcss.com/docs/installation/using-vite)
+
+1. install Tailwind CSS
+
+```
+  npm install tailwindcss @tailwindcss/vite
+```
+
+2. Add the `tailwindcss` plugin to your Vite configuration file
+
+```
+  import tailwindcss from '@tailwindcss/vite'
+
+  plugins: [
+    tailwindcss(),
+  ],
+```
+
+3. import tailwind CSS into `index.css` file
+
+```
+  @import "tailwindcss";
+```
