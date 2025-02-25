@@ -1,7 +1,15 @@
+// CSS import
 import "./App.css";
 
+// library import
+import { Route, Routes } from "react-router-dom";
+
 function App() {
-  return <h1 className="bg-orange-500 p-4 text-slate-700 text-xl font-bold">lms</h1>;
+  return <>
+    <Routes>
+      {/* <Route path="/" element={<Home />} /> */}
+    </Routes>
+  </>
 }
 
 export default App;
