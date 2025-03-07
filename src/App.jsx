@@ -3,15 +3,14 @@ import "./App.css";
 
 // library import
 import { Route, Routes } from "react-router-dom";
-import Footer from "./Components/Footer";
+import HomePage from "./Pages/HomePage";
 
 function App() {
   return (
     <>
-      {/* <Routes> */}
-      {/* <Route path="/" element={<Home />} /> */}
-      {/* </Routes> */}
-      <Footer />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
     </>
   );
 }
